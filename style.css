@@ -1,0 +1,190 @@
+body {
+    background:rgb(6, 26, 46);
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+nav {
+    margin: 0;
+    z-index: 10;
+    background:rgb(6, 26, 46);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    border-bottom: 1px solid rgb(21, 21, 24);
+    box-shadow: 2px 2px rgba(15, 15, 16, .7);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(109, 211, 146);
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 200;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+main {
+    margin-top: 30vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#about {
+    margin-bottom: 15vh;
+    text-shadow: 1px 1px black;
+}
+
+#about > p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+#about-hi {
+    color: rgb(109, 211, 146);
+}
+
+#about h1 {
+    font-size: 3.5rem;
+}
+
+#about-IBuild {
+    color: rgb(101, 119, 130);
+}
+
+#about-description {
+    width: 45%;
+}
+
+.projects-header, .contact-header {
+    font-weight: 200;
+    padding: .2rem;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid rgb(109, 211, 146);
+}
+
+.project-container {
+    margin-bottom: 12vh;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.project-img {
+    width: 100%;
+}
+.project-img > a > img:hover {
+    box-shadow: 3px 3px black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.project-details {
+    width: 100%;
+    margin-left: 8vw;
+}
+
+.project-technologies {
+    color: rgb(101, 119, 130);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: square;
+}
+
+.project-technologies > li {
+    margin: 0 1vw;
+}
+
+.project-description {
+    font-weight: 200;
+    text-align: justify;
+}
+
+.project-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#contact {
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+#contact .material-icons {
+    font-size: 5rem;
+    color: rgb(109, 211, 146);
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-content > p {
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin-top: 15vh;
+        padding: 1rem;
+    }
+
+    #about {
+        padding-left: 6vw;
+    }
+
+    #about-description {
+        width: 60%;
+    }
+
+    #projects {
+        width: 90vw;
+    }
+
+    .projects-header {
+        margin: 0 0 5vh 0;
+    }
+
+    .project-container {
+        display: block;
+    }
+
+    .project-details {
+        margin: 0;
+
+    }
+
+    .project-technologies {
+        justify-content: flex-end;
+    }
+
+    .project-technologies > li {
+        margin-right: 5vw;
+    }
+
+    .project-img > a {
+        padding: 0;
+    }
+
+    .project-img > a > img:hover {
+        transform: none;
+    }
+
+  }
