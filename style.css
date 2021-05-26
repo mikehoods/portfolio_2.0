@@ -13,14 +13,12 @@ img {
 nav {
     margin: 0;
     z-index: 10;
-    background:rgb(6, 26, 46);
+    background-color: rgb(101, 119, 130);
     display: flex;
     justify-content: flex-end;
     position: fixed;
     top: 0%;
     width: 100%;
-    border-bottom: 1px solid rgb(21, 21, 24);
-    box-shadow: 2px 2px rgba(15, 15, 16, .7);
 }
 
 a {
