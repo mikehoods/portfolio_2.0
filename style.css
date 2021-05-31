@@ -166,11 +166,15 @@ main {
     }
 
     #about {
-        padding-left: 6vw;
+        padding-left: 5vw;
+    }
+
+    #about h1 {
+        font-size: 3rem;
     }
 
     #about-description {
-        width: 60%;
+        width: 85%;
     }
 
     #projects {
