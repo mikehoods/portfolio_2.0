@@ -90,6 +90,10 @@ main {
     margin-left: 8vw;
 }
 
+.project-title h2 {
+    margin-top: 0;
+}
+
 .project-technologies {
     color: #132C33;
     display: flex;
