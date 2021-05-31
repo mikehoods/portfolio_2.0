@@ -29,7 +29,7 @@ a {
     font-weight: 200;
 }
 
-a:hover {
+nav a:hover {
     font-weight: 600;
     color: #51C4D3;
 }
@@ -105,12 +105,35 @@ main {
 .project-description {
     font-weight: 200;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .project-links {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 6px;
+}
+
+.project-links div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+    padding: 0 6px;
+}
+
+.project-links a {
+    padding: 0;
+}
+
+.project-links div .link-p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.project-links a i {
+    font-size: 32px;
 }
 
 #contact {
@@ -182,5 +205,4 @@ main {
     .project-img > a > img:hover {
         transform: none;
     }
-
   }
