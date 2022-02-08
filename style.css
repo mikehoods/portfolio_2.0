@@ -76,7 +76,6 @@ main {
 }
 
 .project-img {
-    max-height: 300px;
     max-width: 100%;
 }
 .project-img > a > img:hover {
