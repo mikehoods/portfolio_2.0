@@ -79,8 +79,6 @@ main {
     width: 100%;
 }
 .project-img > a > img:hover {
-    box-shadow: 3px 3px #0e0e0e;
-    transform: scale(1.1);
     cursor: pointer;
 }
 
