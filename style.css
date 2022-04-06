@@ -1,6 +1,5 @@
 body {
     background: linear-gradient(to bottom left, #126E82, #51C4D3, #126E82);
-    color: whitesmoke;
     margin: 0;
     font-family: 'Sora', sans-serif;
 }
@@ -22,8 +21,8 @@ nav {
 }
 
 a {
+    color: #D8E3E7;
     text-decoration: none;
-    color: whitesmoke;
     font-size: 1.2rem;
     padding: 1rem;
     font-weight: 200;
@@ -62,6 +61,7 @@ main {
 }
 
 .projects-header, .contact-header {
+    color: #D8E3E7;
     font-weight: 200;
     padding: .2rem;
     margin-bottom: 5vh;
@@ -69,21 +69,36 @@ main {
 }
 
 .project-container {
+    border-radius: 12px;
     box-sizing: border-box;
     display: flex;
+    height: 350px;
     justify-content: space-between;
-    margin-bottom: 12vh;
+    margin: 0 4vw 12vh 4vw;
+    overflow: hidden;
 }
 
 .project-img {
+    align-items: center;
+    background-color: #D8E3E7;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
     width: 100%;
+}
+
+.project-img > a > img {
+    max-height: 320px;
+    max-width: 300px;
 }
 .project-img > a > img:hover {
     cursor: pointer;
 }
 
 .project-details {
-    margin-left: 8vw;
+    background-color: whitesmoke;
+    padding: 20px;
     width: 100%;
 }
 
@@ -126,6 +141,7 @@ main {
 }
 
 .project-links a {
+    color: black;
     padding: 0;
 }
 
@@ -157,7 +173,6 @@ main {
 .contact-content > p {
     font-weight: 200;
     width: 50%;
-    text-align: center;
     line-height: 1.6;
 }
 
@@ -189,9 +204,12 @@ main {
 
     .project-container {
         display: block;
+        height: 100%;
+        margin: 0 0 12vh 0;
     }
 
     .project-details {
+        box-sizing: border-box;
         margin: 0;
 
     }
@@ -206,9 +224,5 @@ main {
 
     .project-img > a {
         padding: 0;
-    }
-
-    .project-img > a > img:hover {
-        transform: none;
     }
   }
