@@ -98,11 +98,14 @@ main {
 
 .project-details {
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
     width: 100%;
 }
 
-.project-title h2 {
+.project-title {
     margin-top: 0;
 }
 
